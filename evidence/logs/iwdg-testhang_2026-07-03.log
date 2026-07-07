@@ -1,0 +1,277 @@
+t=2319s A=2042,-172,-16773 G=-7,8,8 T=2555
+   -> A[mg]=125,-10,-1024 G[cdps]=-5,6,6 T[C100]=2865
+   -> R=-17935 P=-678 (Rg=-21159 Pg=913)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=2320s A=1986,-200,-16674 G=-11,-13,2 T=2551
+   -> A[mg]=121,-12,-1018 G[cdps]=-8,-10,2 T[C100]=2864
+   -> R=-17933 P=-675 (Rg=-21160 Pg=915)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=2321s A=1998,-211,-16691 G=-5,-10,8 T=2549
+   -> A[mg]=122,-13,-1019 G[cdps]=-4,-8,6 T[C100]=2863
+   -> R=-17931 P=-679 (Rg=-21160 Pg=915)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=2322s A=2007,-162,-16757 G=-1,-5,14 T=2549
+   -> A[mg]=122,-10,-1023 G[cdps]=-1,-4,11 T[C100]=2863
+   -> R=-17938 P=-677 (Rg=-21161 Pg=916)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=2323s A=1994,-160,-16756 G=3,0,3 T=2549
+   -> A[mg]=122,-10,-1023 G[cdps]=2,0,2 T[C100]=2863
+   -> R=-17934 P=-677 (Rg=-21162 Pg=915)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=2324s A=1993,-176,-16752 G=-4,-3,2 T=2542
+   -> A[mg]=122,-11,-1022 G[cdps]=-3,-2,2 T[C100]=2861
+   -> R=-17935 P=-678 (Rg=-21164 Pg=915)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=2325s A=1969,-211,-16725 G=2,-4,15 T=2554
+   -> A[mg]=120,-13,-1021 G[cdps]=2,-3,11 T[C100]=2865
+   -> R=-17936 P=-678 (Rg=-21164 Pg=915)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=2326s A=2031,-206,-16849 G=-5,5,-10 T=2549
+   -> A[mg]=124,-13,-1028 G[cdps]=-4,4,-8 T[C100]=2863
+   -> R=-17935 P=-682 (Rg=-21164 Pg=916)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=2327s A=1967,-194,-16777 G=-5,12,3 T=2546
+   -> A[mg]=120,-12,-1024 G[cdps]=-4,9,2 T[C100]=2863
+   -> R=-17932 P=-676 (Rg=-21166 Pg=916)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+TUGRUL M5-prep boot - SYSCLK 84 MHz
+SPI1 up - probing MPU-9250 WHO_AM_I @656kHz
+PWM up - TIM3 50Hz on PA6/PA7/PB0 (1500/1500/1000 us)
+Failsafe ARMED - IMU freshness watchdog (100 ms)
+Gyrocal NOT-CALIBRATED - hold board STILL (~1 s)
+IWDG armed - 500 ms nominal (~333-941 ms w/ LSI tolerance)
+t=1s WHO_AM_I=0x75 OK (clone die)
+MPU-9250 init OK
+   -> attitude: calibrating (gyro bias)
+   -> gyrocal 0/1000 (restarts=0)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=2s A=1988,-172,-16776 G=-808,307,68 T=2552
+   -> A[mg]=121,-10,-1024 G[cdps]=-617,234,52 T[C100]=2864
+   -> attitude: calibrating (gyro bias)
+   -> gyrocal 896/1000 (restarts=1)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=3s A=2013,-151,-16751 G=-11,-2,-4 T=2547
+   -> A[mg]=123,-9,-1022 G[cdps]=-8,-2,-3 T[C100]=2863
+   -> R=-17935 P=-678 (Rg=-17940 Pg=-678)
+   -> gyrocal done: bias=-820,311,63 LSB (restarts=1)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=4s A=2023,-205,-16765 G=2,7,-6 T=2545
+   -> A[mg]=123,-13,-1023 G[cdps]=2,5,-5 T[C100]=2862
+   -> R=-17935 P=-680 (Rg=-17942 Pg=-677)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=5s A=2001,-173,-16741 G=-14,4,-15 T=2544
+   -> A[mg]=122,-11,-1022 G[cdps]=-11,3,-11 T[C100]=2862
+   -> R=-17933 P=-676 (Rg=-17944 Pg=-674)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=6s A=1987,-205,-16754 G=8,-7,2 T=2544
+   -> A[mg]=121,-13,-1023 G[cdps]=6,-5,2 T[C100]=2862
+   -> R=-17931 P=-677 (Rg=-17945 Pg=-673)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=7s A=1970,-187,-16747 G=-2,-9,-1 T=2555
+   -> A[mg]=120,-11,-1022 G[cdps]=-2,-7,-1 T[C100]=2865
+   -> R=-17937 P=-676 (Rg=-17946 Pg=-671)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=8s A=1975,-183,-16852 G=-2,4,-9 T=2542
+   -> A[mg]=121,-11,-1029 G[cdps]=-2,3,-7 T[C100]=2861
+   -> R=-17937 P=-678 (Rg=-17948 Pg=-669)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=9s A=1990,-157,-16810 G=7,5,8 T=2539
+   -> A[mg]=121,-10,-1026 G[cdps]=5,4,6 T[C100]=2860
+   -> R=-17933 P=-675 (Rg=-17949 Pg=-668)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=10s A=1989,-223,-16769 G=-14,-1,1 T=2552
+   -> A[mg]=121,-14,-1023 G[cdps]=-11,-1,1 T[C100]=2864
+   -> R=-17933 P=-677 (Rg=-17951 Pg=-667)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+TEST HANG: deliberate infinite loop - expect IWDG reset <=1 s
+TUGRUL M5-prep boot - SYSCLK 84 MHz
+reset cause: IWDG watchdog
+SPI1 up - probing MPU-9250 WHO_AM_I @656kHz
+PWM up - TIM3 50Hz on PA6/PA7/PB0 (1500/1500/1000 us)
+Failsafe ARMED - IMU freshness watchdog (100 ms)
+Gyrocal NOT-CALIBRATED - hold board STILL (~1 s)
+IWDG armed - 500 ms nominal (~333-941 ms w/ LSI tolerance)
+t=1s WHO_AM_I=0x75 OK (clone die)
+MPU-9250 init OK
+   -> attitude: calibrating (gyro bias)
+   -> gyrocal 0/1000 (restarts=0)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=2s A=1992,-202,-16732 G=-812,322,44 T=2552
+   -> A[mg]=122,-12,-1021 G[cdps]=-620,246,34 T[C100]=2864
+   -> attitude: calibrating (gyro bias)
+   -> gyrocal 896/1000 (restarts=1)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=3s A=1996,-173,-16723 G=-4,3,-3 T=2543
+   -> A[mg]=122,-11,-1021 G[cdps]=-3,2,-2 T[C100]=2862
+   -> R=-17939 P=-679 (Rg=-17934 Pg=-678)
+   -> gyrocal done: bias=-820,311,51 LSB (restarts=1)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=4s A=2006,-185,-16772 G=1,5,6 T=2549
+   -> A[mg]=122,-11,-1024 G[cdps]=1,4,5 T[C100]=2863
+   -> R=-17934 P=-680 (Rg=-17934 Pg=-677)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=5s A=1989,-176,-16765 G=13,5,1 T=2547
+   -> A[mg]=121,-11,-1023 G[cdps]=10,4,1 T[C100]=2863
+   -> R=-17939 P=-680 (Rg=-17935 Pg=-678)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=6s A=1975,-186,-16766 G=12,-4,0 T=2545
+   -> A[mg]=121,-11,-1023 G[cdps]=9,-3,0 T[C100]=2862
+   -> R=-17938 P=-677 (Rg=-17935 Pg=-677)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=7s A=1981,-195,-16804 G=-8,-7,0 T=2550
+   -> A[mg]=121,-12,-1026 G[cdps]=-6,-5,0 T[C100]=2864
+   -> R=-17934 P=-676 (Rg=-17935 Pg=-677)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=8s A=1986,-175,-16754 G=0,0,5 T=2543
+   -> A[mg]=121,-11,-1023 G[cdps]=0,0,4 T[C100]=2862
+   -> R=-17936 P=-680 (Rg=-17935 Pg=-677)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=9s A=2017,-190,-16785 G=2,-4,0 T=2546
+   -> A[mg]=123,-12,-1024 G[cdps]=2,-3,0 T[C100]=2863
+   -> R=-17936 P=-681 (Rg=-17935 Pg=-678)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=10s A=2000,-174,-16731 G=0,-3,-8 T=2555
+   -> A[mg]=122,-11,-1021 G[cdps]=0,-2,-6 T[C100]=2865
+   -> R=-17937 P=-681 (Rg=-17935 Pg=-678)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+TEST HANG: deliberate infinite loop - expect IWDG reset <=1 s
+TUGRUL M5-prep boot - SYSCLK 84 MHz
+reset cause: IWDG watchdog
+SPI1 up - probing MPU-9250 WHO_AM_I @656kHz
+PWM up - TIM3 50Hz on PA6/PA7/PB0 (1500/1500/1000 us)
+Failsafe ARMED - IMU freshness watchdog (100 ms)
+Gyrocal NOT-CALIBRATED - hold board STILL (~1 s)
+IWDG armed - 500 ms nominal (~333-941 ms w/ LSI tolerance)
+t=1s WHO_AM_I=0x75 OK (clone die)
+MPU-9250 init OK
+   -> attitude: calibrating (gyro bias)
+   -> gyrocal 0/1000 (restarts=0)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=2s A=1958,-159,-16770 G=-821,323,58 T=2541
+   -> A[mg]=120,-10,-1024 G[cdps]=-627,247,44 T[C100]=2861
+   -> attitude: calibrating (gyro bias)
+   -> gyrocal 896/1000 (restarts=1)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=3s A=1994,-180,-16733 G=0,-5,-12 T=2544
+   -> A[mg]=122,-11,-1021 G[cdps]=0,-4,-9 T[C100]=2862
+   -> R=-17941 P=-676 (Rg=-17939 Pg=-675)
+   -> gyrocal done: bias=-823,312,53 LSB (restarts=1)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=4s A=1982,-187,-16802 G=3,13,-8 T=2539
+   -> A[mg]=121,-11,-1026 G[cdps]=2,10,-6 T[C100]=2860
+   -> R=-17939 P=-677 (Rg=-17940 Pg=-675)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=5s A=2005,-143,-16767 G=10,-9,8 T=2538
+   -> A[mg]=122,-9,-1023 G[cdps]=8,-7,6 T[C100]=2860
+   -> R=-17934 P=-680 (Rg=-17941 Pg=-676)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=6s A=2036,-143,-16812 G=2,-7,-6 T=2542
+   -> A[mg]=124,-9,-1026 G[cdps]=2,-5,-5 T[C100]=2861
+   -> R=-17934 P=-678 (Rg=-17941 Pg=-676)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=7s A=1985,-193,-16782 G=-8,-1,4 T=2535
+   -> A[mg]=121,-12,-1024 G[cdps]=-6,-1,3 T[C100]=2859
+   -> R=-17940 P=-679 (Rg=-17942 Pg=-674)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=8s A=2010,-209,-16817 G=10,6,12 T=2543
+   -> A[mg]=123,-13,-1026 G[cdps]=8,5,9 T[C100]=2862
+   -> R=-17938 P=-679 (Rg=-17942 Pg=-673)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=9s A=1984,-153,-16828 G=16,-6,4 T=2544
+   -> A[mg]=121,-9,-1027 G[cdps]=12,-5,3 T[C100]=2862
+   -> R=-17938 P=-679 (Rg=-17943 Pg=-672)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=10s A=2004,-179,-16767 G=-14,2,-18 T=2544
+   -> A[mg]=122,-11,-1023 G[cdps]=-11,2,-14 T[C100]=2862
+   -> R=-17936 P=-682 (Rg=-17946 Pg=-671)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+TEST HANG: deliberate infinite loop - expect IWDG reset <=1 s
+TUGRUL M5-prep boot - SYSCLK 84 MHz
+reset cause: IWDG watchdog
+SPI1 up - probing MPU-9250 WHO_AM_I @656kHz
+PWM up - TIM3 50Hz on PA6/PA7/PB0 (1500/1500/1000 us)
+Failsafe ARMED - IMU freshness watchdog (100 ms)
+Gyrocal NOT-CALIBRATED - hold board STILL (~1 s)
+IWDG armed - 500 ms nominal (~333-941 ms w/ LSI tolerance)
+t=1s WHO_AM_I=0x75 OK (clone die)
+MPU-9250 init OK
+   -> attitude: calibrating (gyro bias)
+   -> gyrocal 0/1000 (restarts=0)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=2s A=2046,-161,-16700 G=-817,317,65 T=2538
+   -> A[mg]=125,-10,-1019 G[cdps]=-624,242,50 T[C100]=2860
+   -> attitude: calibrating (gyro bias)
+   -> gyrocal 896/1000 (restarts=1)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=3s A=1994,-177,-16741 G=-6,-7,-1 T=2546
+   -> A[mg]=122,-11,-1022 G[cdps]=-5,-5,-1 T[C100]=2863
+   -> R=-17935 P=-682 (Rg=-17944 Pg=-686)
+   -> gyrocal done: bias=-816,314,66 LSB (restarts=1)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=4s A=1980,-212,-16771 G=-4,-7,-2 T=2544
+   -> A[mg]=121,-13,-1024 G[cdps]=-3,-5,-2 T[C100]=2862
+   -> R=-17936 P=-679 (Rg=-17945 Pg=-686)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=5s A=2005,-182,-16774 G=-10,-2,-9 T=2545
+   -> A[mg]=122,-11,-1024 G[cdps]=-8,-2,-7 T[C100]=2862
+   -> R=-17939 P=-682 (Rg=-17946 Pg=-686)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=6s A=1996,-202,-16743 G=3,-10,-1 T=2542
+   -> A[mg]=122,-12,-1022 G[cdps]=2,-8,-1 T[C100]=2861
+   -> R=-17935 P=-684 (Rg=-17947 Pg=-687)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=7s A=1972,-237,-16792 G=-4,9,1 T=2531
+   -> A[mg]=120,-14,-1025 G[cdps]=-3,7,1 T[C100]=2858
+   -> R=-17935 P=-675 (Rg=-17948 Pg=-690)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=8s A=1977,-171,-16704 G=1,1,3 T=2533
+   -> A[mg]=121,-10,-1020 G[cdps]=1,1,2 T[C100]=2859
+   -> R=-17935 P=-680 (Rg=-17948 Pg=-689)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms

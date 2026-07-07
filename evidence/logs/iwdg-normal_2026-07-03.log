@@ -1,0 +1,184 @@
+> fs=ARMED age=0ms
+t=3s A=2010,-183,-16892 G=25,-45,4 T=2537
+   -> A[mg]=123,-11,-1031 G[cdps]=19,-34,3 T[C100]=2860
+   -> R=-17939 P=-677 (Rg=-17928 Pg=-667)
+   -> gyrocal done: bias=-821,313,49 LSB (restarts=1)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=4s A=1981,-214,-16776 G=-5,-1,5 T=2536
+   -> A[mg]=121,-13,-1024 G[cdps]=-4,-1,4 T[C100]=2860
+   -> R=-17931 P=-677 (Rg=-17929 Pg=-665)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=5s A=1977,-214,-16799 G=-5,8,13 T=2542
+   -> A[mg]=121,-13,-1025 G[cdps]=-4,6,10 T[C100]=2861
+   -> R=-17931 P=-681 (Rg=-17929 Pg=-665)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=6s A=1998,-164,-16742 G=-13,6,20 T=2545
+   -> A[mg]=122,-10,-1022 G[cdps]=-10,5,15 T[C100]=2862
+   -> R=-17938 P=-674 (Rg=-17929 Pg=-667)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=7s A=2017,-263,-16759 G=-11,26,7 T=2536
+   -> A[mg]=123,-16,-1023 G[cdps]=-8,20,5 T[C100]=2860
+   -> R=-17937 P=-670 (Rg=-17929 Pg=-665)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=8s A=1987,-184,-16746 G=0,12,7 T=2544
+   -> A[mg]=121,-11,-1022 G[cdps]=0,9,5 T[C100]=2862
+   -> R=-17936 P=-678 (Rg=-17930 Pg=-663)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=9s A=1991,-162,-16808 G=-6,-1,3 T=2537
+   -> A[mg]=122,-10,-1026 G[cdps]=-5,-1,2 T[C100]=2860
+   -> R=-17932 P=-677 (Rg=-17930 Pg=-662)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=10s A=2062,-155,-16772 G=7,-6,8 T=2541
+   -> A[mg]=126,-9,-1024 G[cdps]=5,-5,6 T[C100]=2861
+   -> R=-17937 P=-682 (Rg=-17931 Pg=-662)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+TEST HANG: deliberate infinite loop - expect IWDG reset <=1 s
+TUGRUL M5-prep boot - SYSCLK 84 MHz
+reset cause: IWDG watchdog
+SPI1 up - probing MPU-9250 WHO_AM_I @656kHz
+PWM up - TIM3 50Hz on PA6/PA7/PB0 (1500/1500/1000 us)
+Failsafe ARMED - IMU freshness watchdog (100 ms)
+Gyrocal NOT-CALIBRATED - hold board STILL (~1 s)
+IWDG armed - 500 ms nominal (~333-941 ms w/ LSI tolerance)
+TUGRUL M5-prep boot - SYSCLK 84 MHz
+SPI1 up - probing MPU-9250 WHO_AM_I @656kHz
+PWM up - TIM3 50Hz on PA6/PA7/PB0 (1500/1500/1000 us)
+Failsafe ARMED - IMU freshness watchdog (100 ms)
+Gyrocal NOT-CALIBRATED - hold board STILL (~1 s)
+IWDG armed - 500 ms nominal (~333-941 ms w/ LSI tolerance)
+t=1s WHO_AM_I=0x75 OK (clone die)
+MPU-9250 init OK
+   -> attitude: calibrating (gyro bias)
+   -> gyrocal 0/1000 (restarts=0)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=2s A=2004,-121,-16765 G=-809,311,55 T=2538
+   -> A[mg]=122,-7,-1023 G[cdps]=-618,237,42 T[C100]=2860
+   -> attitude: calibrating (gyro bias)
+   -> gyrocal 896/1000 (restarts=1)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=3s A=1993,-200,-16687 G=-5,-2,-4 T=2536
+   -> A[mg]=122,-12,-1018 G[cdps]=-4,-2,-3 T[C100]=2860
+   -> R=-17939 P=-680 (Rg=-17949 Pg=-675)
+   -> gyrocal done: bias=-820,314,50 LSB (restarts=1)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=4s A=1988,-158,-16669 G=3,-21,4 T=2541
+   -> A[mg]=121,-10,-1017 G[cdps]=2,-16,3 T[C100]=2861
+   -> R=-17935 P=-677 (Rg=-17949 Pg=-679)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=5s A=1992,-195,-16761 G=-4,1,-3 T=2534
+   -> A[mg]=122,-12,-1023 G[cdps]=-3,1,-2 T[C100]=2859
+   -> R=-17932 P=-679 (Rg=-17950 Pg=-677)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=6s A=1971,-164,-16765 G=-13,11,1 T=2538
+   -> A[mg]=120,-10,-1023 G[cdps]=-10,8,1 T[C100]=2860
+   -> R=-17935 P=-674 (Rg=-17949 Pg=-681)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=7s A=1987,-193,-16724 G=-3,6,1 T=2540
+   -> A[mg]=121,-12,-1021 G[cdps]=-2,5,1 T[C100]=2861
+   -> R=-17936 P=-677 (Rg=-17949 Pg=-681)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=8s A=2007,-89,-16871 G=-15,-7,-5 T=2540
+   -> A[mg]=122,-5,-1030 G[cdps]=-11,-5,-4 T[C100]=2861
+   -> R=-17943 P=-681 (Rg=-17951 Pg=-679)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=9s A=2032,-188,-16804 G=6,19,-7 T=2541
+   -> A[mg]=124,-11,-1026 G[cdps]=5,15,-5 T[C100]=2861
+   -> R=-17934 P=-681 (Rg=-17952 Pg=-679)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=10s A=1984,-133,-16745 G=-10,-1,-9 T=2537
+   -> A[mg]=121,-8,-1022 G[cdps]=-8,-1,-7 T[C100]=2860
+   -> R=-17941 P=-681 (Rg=-17953 Pg=-679)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=11s A=1978,-156,-16744 G=6,2,-3 T=2538
+   -> A[mg]=121,-10,-1022 G[cdps]=5,2,-2 T[C100]=2860
+   -> R=-17936 P=-678 (Rg=-17954 Pg=-680)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=12s A=1987,-177,-16752 G=-4,1,3 T=2534
+   -> A[mg]=121,-11,-1022 G[cdps]=-3,1,2 T[C100]=2859
+   -> R=-17942 P=-679 (Rg=-17955 Pg=-682)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=13s A=1978,-213,-16691 G=-7,-3,9 T=2536
+   -> A[mg]=121,-13,-1019 G[cdps]=-5,-2,7 T[C100]=2860
+   -> R=-17938 P=-682 (Rg=-17957 Pg=-682)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=14s A=2025,-203,-16773 G=3,-2,5 T=2546
+   -> A[mg]=124,-12,-1024 G[cdps]=2,-2,4 T[C100]=2863
+   -> R=-17935 P=-684 (Rg=-17957 Pg=-683)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=15s A=1992,-148,-16745 G=5,-1,-19 T=2553
+   -> A[mg]=122,-9,-1022 G[cdps]=4,-1,-15 T[C100]=2865
+   -> R=-17937 P=-680 (Rg=-17958 Pg=-685)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=16s A=1992,-166,-16727 G=-7,2,0 T=2543
+   -> A[mg]=122,-10,-1021 G[cdps]=-5,2,0 T[C100]=2862
+   -> R=-17940 P=-681 (Rg=-17957 Pg=-686)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=17s A=1988,-191,-16730 G=1,-1,8 T=2546
+   -> A[mg]=121,-12,-1021 G[cdps]=1,-1,6 T[C100]=2863
+   -> R=-17937 P=-680 (Rg=-17958 Pg=-686)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=18s A=1968,-155,-16714 G=8,5,17 T=2539
+   -> A[mg]=120,-9,-1020 G[cdps]=6,4,13 T[C100]=2860
+   -> R=-17942 P=-676 (Rg=-17957 Pg=-687)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=19s A=1960,-206,-16739 G=-5,7,1 T=2537
+   -> A[mg]=120,-13,-1022 G[cdps]=-4,5,1 T[C100]=2860
+   -> R=-17939 P=-676 (Rg=-17956 Pg=-687)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=20s A=1985,-177,-16758 G=-10,5,0 T=2541
+   -> A[mg]=121,-11,-1023 G[cdps]=-8,4,0 T[C100]=2861
+   -> R=-17939 P=-679 (Rg=-17957 Pg=-687)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=21s A=1987,-212,-16720 G=6,-3,15 T=2549
+   -> A[mg]=121,-13,-1021 G[cdps]=5,-2,11 T[C100]=2863
+   -> R=-17936 P=-681 (Rg=-17957 Pg=-688)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=22s A=2017,-145,-16765 G=0,3,-7 T=2548
+   -> A[mg]=123,-9,-1023 G[cdps]=0,2,-5 T[C100]=2863
+   -> R=-17937 P=-680 (Rg=-17957 Pg=-689)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=23s A=1998,-160,-16715 G=-10,0,5 T=2545
+   -> A[mg]=122,-10,-1020 G[cdps]=-8,0,4 T[C100]=2862
+   -> R=-17939 P=-681 (Rg=-17957 Pg=-689)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=24s A=1990,-185,-16766 G=3,3,-1 T=2542
+   -> A[mg]=121,-11,-1023 G[cdps]=2,2,-1 T[C100]=2861
+   -> R=-17939 P=-678 (Rg=-17958 Pg=-690)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
+t=25s A=2011,-209,-16778 G=4,-4,-1 T=2547
+   -> A[mg]=123,-13,-1024 G[cdps]=3,-3,-1 T[C100]=2863
+   -> R=-17935 P=-680 (Rg=-17959 Pg=-691)
+   -> pwm A=1500 E=1500 T=1000
+   -> fs=ARMED age=0ms
